@@ -3,7 +3,6 @@
 A **rule-based Medical Diagnosis Expert System** developed using **Prolog** that simulates a doctor’s diagnostic reasoning.  
 The system interacts with users, asks about symptoms, and infers the most probable disease along with confidence level, severity, treatment, and prevention advice.
 
-> ⚠️ This system is for **educational purposes only** and is not a replacement for professional medical advice.
 
 ---
 
@@ -66,11 +65,4 @@ The system interacts with users, asks about symptoms, and infers the most probab
 6. Disease with highest confidence is inferred
 7. Severity, treatment, and prevention are displayed
 
----
 
-## ▶️ How to Run
-
-1. Install a Prolog environment (e.g., **SWI-Prolog**)
-2. Load the program file:
-   ```prolog
-   consult('medical_diagnosis.pl').
